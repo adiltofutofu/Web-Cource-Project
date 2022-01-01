@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+html{ 
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-image: url('../images/bg/shop-blog-bg.jpg');
+    padding: 20px 0 50px 0;
+    width: 100%;
+}
+#break-line {
+    background-image: url('../images/line.jpg');
+    height: 50px;
+    width: 100%;
+}
+#section-1 { 
+    background-image: url('../images/bg/shop-shop-bg.jpg');
+    padding: 20px 0 100px 0;
+    width: 100%;
+    
+}
+
+.contact-var {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.in-contact { 
+    display: block;
+    width: 100%;
+}
+.flo-l { 
+    width: 60%;
+    float: left;
+}
+.flo-r { 
+    width: 35%;
+    float: right;
+    background-color: #252932;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.map { 
+    padding: 25px;
+    background-color: #252932;
+}
+.right-map { 
+    padding: 25px;
+    color: #adabac;
+    font-size: 14px;
+    font-weight: 600;
+}
+.right-map a { 
+    text-decoration: none;
+    color: #adabac;
+}
+.right-map a:hover { 
+    color: #fe5917;
+    transition: 0.4s;
+}
+.fas-contact { 
+    color: #fe5917;
+    margin-right: 2%;
+    font-size: 12px;
+}
+.main-r { 
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.under-images {
+    margin: 0 auto;
+    width: 40%;
+}
+.under-cen {
+    text-align: center;
+    font-size: 16px;
+    color: #b1b1b1;
+}
+.under-images-cen {
+    font-family: 'Poppins', cursive;
+    color: #ffffff;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 5px solid #fe5917;
+    padding-bottom: 15px;
+}
+
+.contact-form {
+    width: 70%; margin: 0 auto; padding-top: 50px;
+}
+.form-in-contact {
+    display: flex; justify-content: space-between;
+}
+.center-message {
+    display: flex; justify-content: center;
+}
+textarea {
+    height: 200px; resize: none; width: 100%;
+    margin-bottom: 25px; background: #252932;
+    outline: none; border: none; font-size: 20px;
+    color: #cbcece; padding-left: 15px; padding-top: 15px;
+    font-family: 'Oxanium', cursive;
+}
+.submit-button {
+    width: 100%; height: 60px; background: #fe5917;
+    font-size: 20px; color: #ffffff; font-family: 'Oxanium', cursive; 
+    border: none; font-weight: 900; cursor: pointer; animation: submit-anime 10s infinite;
+}
+.in-form {
+    color: rgb(228, 228, 228); font-size: 18px; width: 47%;
+    height: 60px;  margin-bottom: 25px;
+    background: #252932; outline: none; border: none;
+    padding-left: 15px; font-family: 'Oxanium', cursive;
+}
+
+
+
+
+
+

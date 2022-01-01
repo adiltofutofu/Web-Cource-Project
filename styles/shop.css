@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html{ 
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-image: url('../images/bg/shop-blog-bg.jpg');
+    padding: 20px 0 50px 0;
+    width: 100%;
+}
+#break-line {
+    background-image: url('../images/line.jpg');
+    height: 50px;
+    width: 100%;
+}
+#section-1 { 
+    background-image: url('../images/bg/shop-shop-bg.jpg');
+    padding: 0px 0 100px 0;
+    width: 100%;
+}
+.search-line { 
+    padding-top: 150px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.search-line p {
+    color: #d9d9d9;
+    font-size: 14px;
+    font-weight: 700;
+}
+.search-button { 
+    color: #d9d9d9;
+    background-color: #2c2f38;
+    border: none;
+    width: 20%;
+    height: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: 'Oxanium', cursive;
+    font-weight: 900;
+    }
+.search-button:focus { outline: none; }
+
+.in-ass {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.fasa { 
+    color: #ffffff;
+    background-color: #1e2128;
+    font-size: 14px;
+}
+.pages-block a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 12px 8px 12px;
+    background-color: #1e2128;
+    border: 2px solid #d9d9d971;
+    margin-right: 1%;
+}
+
+.pages-block .current {
+    border-color: #fe5917 ;
+}
+
+.pages-block a:hover { 
+    border-color: #fe5917;
+    transition: 0.5s;
+}
+.pages-block {
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.in-prod { 
+    border-radius: 5px;
+    transition: 0.5s; 
+    opacity: 0; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 15px 30px;
+    background-color: #fe5917;
+    text-align: center; 
+}
+.shop-product { border-radius: 2%; opacity: 1; transition: 0.5s; }
+.block-product-1 { display: block; position: relative;}
+.block-product-2 { display: block; position: relative; }
+.block-product-3 { display: block; position: relative; }
+.block-product-4 { display: block; position: relative; }
+.block-product-5 { display: block; position: relative; }
+.block-product-6 { display: block; position: relative; }
+.block-product-1:hover .shop-product { opacity: 0.3; }
+.block-product-2:hover .shop-product{ opacity: 0.3; }
+.block-product-3:hover .shop-product{ opacity: 0.3; }
+.block-product-4:hover .shop-product{ opacity: 0.3; }
+.block-product-5:hover .shop-product{ opacity: 0.3; }
+.block-product-6:hover .shop-product{ opacity: 0.3; }
+.block-product-1:hover .shop-product { opacity: 0.3; }
+.block-product-2:hover .shop-product{ opacity: 0.3; }
+.block-product-3:hover .shop-product{ opacity: 0.3; }
+.block-product-4:hover .shop-product{ opacity: 0.3; }
+.block-product-5:hover .shop-product{ opacity: 0.3; }
+.block-product-6:hover .shop-product{ opacity: 0.3; }
+.block-product-1:hover .in-prod { opacity: 1; }
+.block-product-2:hover .in-prod{ opacity: 1; }
+.block-product-3:hover .in-prod{ opacity: 1; }
+.block-product-4:hover .in-prod{ opacity: 1; }
+.block-product-5:hover .in-prod{ opacity: 1; }
+.block-product-6:hover .in-prod{ opacity: 1; }
+.block-product-1:hover .in-prod{ opacity: 1; }
+.block-product-2:hover .in-prod{ opacity: 1; }
+.block-product-3:hover .in-prod{ opacity: 1; }
+.block-product-4:hover .in-prod{ opacity: 1; }
+.block-product-5:hover .in-prod{ opacity: 1; }
+.block-product-6:hover .in-prod{ opacity: 1; }
+.fa-shopping-bag { margin-right: 10px;}
+
+.in-prod a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+.between-product {
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.between-product a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.accessories {
+    font-family: 'Poppins', cursive;
+    color: #fe5917;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

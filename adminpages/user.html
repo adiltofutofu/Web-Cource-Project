@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/admin-all.css">
+    <link rel="stylesheet" href="user.css">
+    <title>Vinom - Admin Panel</title>
+</head>
+<body>
+    <section>
+        <div class="sidebar">
+            <p class="admin-link"> <a href="../adminpanel.html"></i> ADMIN</a></p>
+            <a href="../adminpages/user.html" class="active-page"><i class="fas fa-user-friends"></i> Users</a>
+            <a href="../adminpages/adduser.html"><i class="fas fa-user-plus"></i> Add User</a>
+            <a href="../adminpages/deluser.html"><i class="fas fa-user-minus"></i> Delete User</a>
+            <a href="../adminpages/upduser.html"><i class="fas fa-user-edit"></i> Update User</a>
+            <a href="../adminpages/disenuser.html"><i class="fas fa-users-cog"></i> Disable/Enable</a>
+            <a href="../adminpages/siteset.html"><i class="fas fa-cogs"></i> Admin settings</a>
+            <a href="../home.html"><i class="fas fa-power-off"></i> LogOut</a>
+        </div>
+        <div class="back-admin">
+            <table class="users">
+                <tr>
+                    <td class="center-align">№</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td class="center-align">Status</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+    <script src="../scripts/index.js"></script>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/same.css"> 
+    <link rel="stylesheet" href="styles/home.css"> 
+    <title>Vinom - eSports Gaming</title>
+</head>
+<body>
+    <header>
+        <div class="above-nav">
+            <div class="icon-nav">
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter nav-icon"></i></a>
+                <a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-alien nav-icon"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube nav-icon"></i></a>
+                <a href="https://www.twitch.com/" target="_blank"><i class="fab fa-twitch nav-icon"></i></a>
+            </div>
+            <div class="reg-log">
+                <a href="registaration.html" class="logreg reg"><i class="fas fa-sign-out-alt"></i><span class="regsig">REGISTER</span></a> <span class="or">OR</span>
+                <a href="#" class="logreg log" onclick="showModal(event)"><i class="fas fa-sign-out-alt"></i><span class="regsig">SIGN IN </span></a>
+            </div>
+            <div class="modal">
+                <div class="signin-modal">
+                    <button class="close-btn" onclick="closeBtn()">X</button>
+                    <h2 class="modal-head">Sign In</h2>
+                    <span id="inMes"></span>
+                    <form action="">
+                        <label for="sign_email" class="form-label">Email:</label>
+                        <input type="email" class="form-input" id="sign_email" placeholder="example@example.com" required>
+                        <label for="sign_pass" class="form-label">Password:</label>
+                        <input type="password" class="form-input" id="sign-password">
+                        <button type="submit" onclick="signIn(event)" class="form-btn">Sign in</button>
+                    </form>
+                    <p>Don't have account? <a href="registration.html"> Register</a></p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="logo-nav">
+                <a href="home.html"><img src="images/logo/logo.png" alt="company-logo"></a>
+            </div>
+            <div class="link-nav">
+                <a href="home.html" class="main-nav-link"><span class="nav-m-l">HOME</span></a>
+                <a href="shop.html" class="main-nav-link"><span class="nav-m-l-nc">SHOP</span></a>
+                <a href="blog.html" class="main-nav-link"><span class="nav-m-l-nc">BLOG</span></a>
+                <a href="contact.html" class="main-nav-link"><span class="nav-m-l-nc">CONTACT</span></a>
+                <a href="card.html"><i class="fas fa-shopping-basket"></i></a>
+                <a href="adminpanel.html" id="profile"><span class="fa-user1"><i class="fas fa-user"></i></span></a>
+            </div>
+        </nav>
+    </header>
+    <section id="section-1">
+        <div class="slider">
+            <img src="images/slider/slider-bg.jpg" alt="slider" class="slider-home"> 
+            <div class="block-slider">
+                <img src="images/slider/slider-circle.png" alt="circle" class="circle">
+                <p class="f-s">WORLD GAMING</p>
+                <p class="s-s">PLAY MANAGE <span class="home-m">GAMES</span></p>
+                <p class="t-s">Find any game or gaming accessories, play games on cloud gaming and find new teammates</p>
+            </div>
+        </div>
+        <p class="platforms-text">MOST POPULAR GAME <span class="dif-col">CHOICES</span></p>
+        <div class="under-platforms">
+            <div class="container-1">
+                <img src="images/gallery/gallery_img03.jpg" alt="something" class="under-p-image" height="300" width="585">
+                <div class="in-middle">
+                    <a href="#section-2" class="image-cs">BATTLEFIELD 2042</a>
+                </div>
+            </div>
+            <div class="container-2">
+                <img src="images/gallery/gallery_img04.jpg" alt="something" class="under-p-image" height="300" width="585">
+                <div class="in-middle">
+                    <a href="#section-2" class="image-cs">APEX: LEGENDS</a>
+                </div>    
+            </div>
+        </div>
+        <div class="under-images">
+            <h1 class="under-images-cen">WHY <span class="dif-col">CHOOSE </span> US</h1>
+            <p class="under-cen">We have the biggest servers among the all countries for playing various games, also we have the unique shop and blog</p>
+        </div>
+        <div class="why-choose">
+            <div class="table-trd">
+                <table class="choose-t">
+                    <tr>
+                        <td class="top-t">
+                            <a href="#" class="link-t"><p><span class="name-com">ONLINE-GAMING</span></p></a>
+                            <p><span class="about-t">Online Gaming available with our new servers</span></p>
+                            <p><span class="des-t">Available right now on Win10, Win11, Android and Mac</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="iii">
+                            <div class="le-te">
+                                <a href="#"><p><span class="or-t">AVAILABLE</span></p></a>
+                                <a href="#" class="w-ta-a"><p class="w-ta">ASSASIN'S CREED VALHALLA</p></a>
+                            </div>
+                            <img src="images/table-head3.webp" class="table-p">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="iii">
+                            <div class="le-te">
+                                <a href="#"><p><span class="or-t">AVAILABLE</span></p></a>
+                                <a href="#" class="w-ta-a"><p class="w-ta">PLAYERUNKNOW'S BATTLEGROUNDS</p></a>
+                            </div> <img src="images/table-head4.png" class="table-p">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-trd">
+                <table class="choose-t iiii">
+                    <tr>
+                        <td class="top-t">
+                            <a href="#" class="link-t"><p ><span class="name-com">FIND YOUR TEAM</span></p></a>
+                            <p ><span class="about-t">Thousands of players are playing right now on our servers</span></p>
+                            <p><span class="des-t">Available right now on Win10, Win11, Android and Mac</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="iii ">
+                            <div class="le-te">
+                                <a href="#"><p><span class="or-t">AVAILABLE</span> </p></a>
+                                <a href="#" class="w-ta-a"><p class="w-ta">Create and Join Teams to claim victory</p></a>
+                            </div>
+                            <img src="images/people/esport.png" class="table-p">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-trd">
+                <table class="choose-t">
+                    <tr>
+                        <td class="top-t">
+                            <a href="#" class="link-t"><p><span class="name-com">GAMING ACCESSORIES</span></p></a>
+                            <p><span class="about-t">Buy any gaming accessories that you want</span></p>
+                            <p><span class="des-t">Various accessories available right now on our <a href="shop.html" class="shop-link">shop page</a></span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="iii">
+                            <div class="le-te">
+                                <a href="#"><p><span class="or-t">AVAILABLE</span> </p></a>
+                                <a href="#" class="w-ta-a"><p class="w-ta">Modern gaming accessories</p></a>
+                            </div>
+                            <img src="images/table-head2.png" class="table-p">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="iii">
+                            <div class="le-te">
+                                <a href="#"><p><span class="or-t">AVAILABLE</span> </p></a>
+                                <a href="#" class="w-ta-a"><p class="w-ta">Modern gaming accessories</p></a>
+                            </div>
+                            <img src="images/table-head.png" class="table-p">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </Div>
+    </section>
+    <section id="section-1-5">
+        <div class="under-images">
+            <h1 class="under-images-cen">JUST FOR <span class="dif-col">BEST </span> GAMERS</h1>
+            <p class="under-cen">Compete games with 100 players from the whole world on online format every day for 50$, maybe you win all of it</p>
+        </div>
+        <div class="feauture">
+            <div class="feature-inner">
+                <img src="images/people/features_img01.jpg" alt="people" class="people">
+                <div class="in-image-1">
+                    <a href="#"><p><span class="in-1">PUBG GAMING DAILY</span><br><span class="in-2">ENTRY FEE: <span class="in-3">FREE</span></span></p></a>
+                </div>
+            </div>
+            <div class="feature-inner">
+                <img src="images/people/features_img02.jpg" alt="people" class="people">
+                <div class="in-image-1">
+                    <a href="#"><p><span class="in-1">CS:GO GAMING DAILY</span><br><span class="in-2">ENTRY FEE: <span class="in-3">4.99$</span></span></p></a>
+                </div>
+            </div>
+            <div class="feature-inner">
+                <img src="images/people/features_img03.jpg" alt="people" class="people">
+                <div class="in-image-1">
+                    <a href="#"><p><span class="in-1">VALORANT GAMING DAILY</span><br><span class="in-2">ENTRY FEE: <span class="in-3">8.99$</span></span></p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="break-line"></section>
+    <section id="section-2">
+        <div class="table-all"> 
+            <div id="l-t"><p><span class="dif-col">RECENT</span> GAMES OFFERS</p></div> 
+            <div id="r-t"><p><span class="dif-col">MOST POPULAR</span> OFFERS</p></div> 
+        </div>
+        <div class="table-all-2">
+            <table id="table-1" class="l-t-t">
+                <tr class="l-c">
+                    <td class="r-1 u-1">
+                        <img src="images/games-table/dead-cells.jpg">
+                        <div class="text-table"> 
+                            <a href="#" class="highlight-table"><p>STAR WARS <br> OFFLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$6.00</p>
+                        </div>
+                    </td>
+                    <td class="u-1">
+                        <img src="images/games-table/pubg-mobile.png">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>PUBG MOBILE<br> ONLINE</p></a>
+                            <i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$13.00</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="d-c">
+                    <td class="r-1 u-1">
+                        <img src="images/games-table/assasins-creed.jfif">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>ASSASIN'S CREED ODYSSEY<br> OFFLINE</p></a>
+                            <i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$34.99</p>
+                        </div>
+                    </td>
+                    <td class="u-1">
+                        <img src="images/games-table/MORTAML.webp">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>MORTAL SHELL<br> OFFLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="l-c">
+                    <td class="r-1">
+                        <img src="images/games-table/DB.webp">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>DRAGON BALL Z <br> OFFLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                    <td class="">
+                        <img src="images/games-table/NIER.webp">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>NIER:REPLICANT <br> OFFLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table id="table-2" class="l-t-t">
+                <tr class="l-c">
+                    <td class="t-t u-1">
+                        <img src="images/games-table/bettlefield.webp">
+                        <div class="text-table"> 
+                            <a href="#" class="highlight-table"><p>BATTLEFIELD 2042<br> ONLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="d-c">
+                    <td class="u-1">
+                        <img src="images/games-table/apex.webp">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>APEX: LEGENDS <br> ONLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="l-c">
+                    <td class="">
+                        <img src="images/games-table/FALLOUT.webp">
+                        <div class="text-table">
+                            <a href="#" class="highlight-table"><p>RETURNAL <br> OFFLINE</p></a>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <p>$12.00</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-nav">
+            <div class="footer-nav-inner">
+                <a href="home.html" class="footer-nav-bar" class="border-right">HOME</a>
+                <a href="shop.html" class="footer-nav-bar">SHOP</a>
+                <img src="images/logo/logo.png" class="footer-nav-image" alt="footer-logo">
+                <a href="blog.html" class="footer-nav-bar" class="border-right">BLOG</a>
+                <a href="contact.html" class="footer-nav-bar">CONTACT</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="hed">ADDRESS OFFICE</h3><br><br>
+                <a href="#" class="footer-row">Koktem-3 22, Almaty, KZ 70413</a>
+                <a href="#" class="footer-row"><span class="more-light">Open:</span> 8:30 AM 9:30PM</a><br>
+                <a href="#" class="footer-row"><i class="fas fa-phone"></i> <span class="more-light">Phone: </span> +7 771 431 04 70</a>
+                <a href="#" class="footer-row"><i class="fas fa-envelope"></i> <span class="more-light">Email: </span> Vinom@gmail.com</a><br>
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-footer"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-footer"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-footer"></i></a>
+               <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-footer"></i></a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">TREND GAMES</h3><br><br>
+                <a href="#" class="footer-row footer-change">Divinity Sin</a><br>
+                <a href="#" class="footer-row footer-change">The Witcher 3</a><br>
+                <a href="#" class="footer-row footer-change">Dischonored 2</a><br>
+                <a href="#" class="footer-row footer-change">Cars 3</a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">NEED HELP?</h3><br><br>
+                <a href="#" class="footer-row footer-change">Terms</a><br>
+                <a href="#" class="footer-row footer-change">Privacy Policy</a><br>
+                <a href="#" class="footer-row footer-change">Refund Policy</a><br>
+                <a href="#" class="footer-row footer-change">FAQ</a><br>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">RECENT COMMENTS</h3><br><br>
+                <a href="#" class="footer-row"><span class="more-light">Elon Musk: </span>This site designed vety well!</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Jomart Tokayev: </span>Unbelieveble site, I'm gonna <br>buy something.</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Elvis Presley: </span>Top design, One of the <br>best site I've ever seen.</a><br>
+            </div>
+          </div>
+    </footer>
+    <section id="section-3">
+        <div class="under-footer">
+            <div><p class="copy">Copyright © 2020 <span class="copyright">Adil-Nurailym</span> All Rights Reserved.</p></div>
+            <div><img src="images/card-footer.png" alt="some-cards"></div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

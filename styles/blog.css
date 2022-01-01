@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html{ 
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-image: url('../images/bg/shop-blog-bg.jpg');
+    padding: 20px 0 50px 0;
+    width: 100%;
+}
+#break-line {
+    background-image: url('../images/line.jpg');
+    height: 50px;
+    width: 100%;
+}
+#section-1 { 
+    background-image: url('../images/bg/blog-bg.jpg');
+    padding: 20px 0 3250px 0;
+    width: 100%;
+}
+#blog-posts { 
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 100px;
+    display: block;
+}
+#l-s { 
+    width: 65%;
+    float: left;
+}
+#r-s { 
+    width: 32.5%;
+    float: right;
+}
+.table-l {
+    background-color: #282b32;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.blog-pic { 
+    width: 100%;
+}
+.blog-post-1 { 
+    font-size: 30px;
+    font-weight: 900;
+    color: #feeeee;
+}
+.blog-post-2 { 
+    font-family: 'Roboto', sans-serif;
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog-td {
+    border-bottom: 1px solid #b1b1b1;
+    padding-bottom: 20px;
+}
+.un-t { 
+    color: #fe5917;
+    margin-right: 1%;
+}
+.under-des { 
+    margin-right: 1%;
+}
+.line-under a{
+     text-decoration: none;
+     color: #adabac;
+}
+.line-under {
+    font-size: 14px;
+    color: #adabac;
+}
+.fa-blog {
+    margin-right: 1%;
+}
+.icon-blog { 
+    margin-left: 30%;
+}
+.high:hover { 
+    color: #fe5917;
+    transition: 0.4s;
+}
+.pages-block a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 12px 8px 12px;
+    background-color: #1e2128;
+    border: 2px solid #d9d9d971;
+    margin-right: 1%;
+}
+
+.pages-block .current {
+    border-color: #fe5917 ;
+}
+
+.pages-block a:hover { 
+    border-color: #fe5917;
+    transition: 0.5s;
+}
+.pages-block {
+    margin-top: 70px;
+}
+.search-button { 
+    color: #adabac;
+    background-color: #2c2f38;
+    border: none;
+    height: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 14px;
+    font-family: 'Oxanium', cursive;
+    font-weight: 900;
+    width: 100%;
+    padding-left: 25px;
+}
+.search-button:focus {
+    outline: none;
+}
+.search-blog { 
+    color: #fe5917;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    top: -30px;
+    margin-right: 25px;
+}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.table-side { 
+    width: 100%;
+    background-color: #282b32;
+    padding: 25px;
+    margin-top: 50px;
+}
+.table-side p:hover { 
+    color: #fe5917;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.fl-l { 
+    float: left;
+}
+.fl-r { 
+    float: right;
+}
+.table-side-h { 
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.categ { 
+    border-bottom: 5px solid #fe5917;
+    padding-bottom: 10px;
+}
+td p { 
+    color: #adabac;
+    font-size: 14px;
+    font-weight: 900;
+}
+.num-table {
+    padding: 5px 7.5px;
+    background-color: #363844;
+}
+.between-left { 
+    border-bottom: 1px solid #363844;
+}
+.table-side-2 { 
+    background-color: #282b32;
+    padding: 25px;
+    margin-top: 50px;
+    width: 100%;
+}
+.table-side-2 img {
+    padding-right: 20px;
+    float: left;
+    border-radius: 5%;
+    height: 95px;
+    width: 100px;
+}
+.bot-side { 
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #363844;
+    
+}
+.bot-side p { 
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.table-side-2 a { 
+    text-decoration: none;
+}
+.less-l { 
+    color: #b1b1b1;
+    font-weight: 600;
+    font-size: 12px;
+}
+.link-blog:hover { 
+    color: #fe5917;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

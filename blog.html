@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles/shop-blog-contact.css"> 
+    <link rel="stylesheet" href="styles/same.css"> 
+    <link rel="stylesheet" href="styles/blog.css"> 
+    <title>Vinom - Blog</title>
+</head>
+<body>
+    <header>
+        <div class="above-nav">
+            <div class="icon-nav">
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter nav-icon"></i></a>
+                <a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-alien nav-icon"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube nav-icon"></i></a>
+                <a href="https://www.twitch.com/" target="_blank"><i class="fab fa-twitch nav-icon"></i></a>
+            </div>
+            <div class="reg-log">
+                <a href="registaration.html" class="logreg reg"><i class="fas fa-sign-out-alt"></i><span class="regsig">REGISTER</span></a> <span class="or">OR</span>
+                <a href="#" class="logreg log" onclick="showModal(event)"><i class="fas fa-sign-out-alt"></i><span class="regsig">SIGN IN </span></a>
+            </div>
+            <div class="modal">
+                <div class="signin-modal">
+                    <button class="close-btn" onclick="closeBtn()">X</button>
+                    <h2 class="modal-head">Sign In</h2>
+                    <span id="inMes"></span>
+                    <form action="">
+                        <label for="sign_email" class="form-label">Email:</label>
+                        <input type="email" class="form-input" id="sign_email" placeholder="example@example.com" required>
+                        <label for="sign_pass" class="form-label">Password:</label>
+                        <input type="password" class="form-input" id="sign-password">
+                        <button type="submit" onclick="signIn(event)" class="form-btn">Sign in</button>
+                    </form>
+                    <p>Don't have account? <a href="registration.html"> Register</a></p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="logo-nav">
+                <a href="home.html"><img src="images/logo/logo.png" alt="company-logo"></a>
+            </div>
+            <div class="link-nav">
+                <a href="home.html" class="main-nav-link"><span class="nav-m-l-nc">HOME</span></a>
+                <a href="shop.html" class="main-nav-link"><span class="nav-m-l-nc">SHOP</span></a>
+                <a href="blog.html" class="main-nav-link"><span class="nav-m-l">BLOG</span></a>
+                <a href="contact.html" class="main-nav-link"><span class="nav-m-l-nc">CONTACT</span></a>
+                <a href="card.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+        <h1 class="header-center">LATEST <span class="dif-col">NEWS</span> UPDATES</h1>
+        <div class="header-under-center">
+            <a href="home.html" class="link-head-col">HOME</a>
+            <a href="blog.html" class="dif-col">BLOG</a>
+        </div>
+    </header>
+    <section id="break-line"></section>
+    <section id="section-1">
+        <main id="blog-posts">
+            <div id="l-s">
+                <img src="images/blog/news-1.jpg" height="425" width="790" alt="blog-picture" class="blog-pic">
+                <table class="table-l">
+                    <tr>
+                        <td class="blog-td">
+                            <p><span class="blog-post-1">Nier Replicant Is Just $30 For Black Friday</span></p>
+                            <p><span class="blog-post-2">Nier Replicant is a fantastic upgraded version of the original 2010 Nier, with much-improved visuals, better combat, and extra story content that fits more in line with the creators' original vision. It's currently available at Amazon for just $30--at least for the Xbox version--and it's fully compatible with the Xbox Series X, as well.</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="line-under"><i class="fas fa-user-circle un-t"></i> <span class="under-des">BY <a href="https://www.gamespot.com/profile/gabegurwin/ " target="_blank" class="high">GABE GUR</a></span>  <i class="far fa-clock un-t"></i> <span class="under-des">NOVEMBER 26, 2021 </span> <i class="far fa-comments un-t"></i> <span class="under-des"><a href="#" class="high">0 COMMENT</a></span>
+                                <span class="icon-blog">
+                                    <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-blog"></i></a>
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-blog"></i></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-blog"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-blog"></i></a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            <img src="images/blog/news-2.jpg" height="425" width="790" alt="blog-picture" class="blog-pic" id="t-2">
+            <table class="table-l" >
+                <tr>
+                    <td class="blog-td">
+                        <p><span class="blog-post-1">The Witcher 4 Controversial Feature Hinted at by Developer</span></p>
+                        <p><span class="blog-post-2">Speaking to investors, CDPR president Adam Kicinski noted that multiplayer will "gradually" be introduced to both of the company's core series, Cyberpunk 2077 and The Witcher. Up until this point, the latter has been a strictly narrative-driven single-player experience, but that may change with the next installment. </span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="line-under"><i class="fas fa-user-circle un-t"></i> <span class="under-des">BY <a href="https://www.gamespot.com/profile/gabegurwin/ " target="_blank" class="high">XIN LIONG</a></span>  <i class="far fa-clock un-t"></i> <span class="under-des">DECEMBER 13, 2021 </span> <i class="far fa-comments un-t"></i> <span class="under-des"><a href="#" class="high">0 COMMENT</a></span>
+                            <span class="icon-blog">
+                                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-blog"></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-blog"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-blog"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-blog"></i></a>
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <img src="images/blog/news-3.jpg" height="425" width="790" alt="blog-picture" class="blog-pic" id="t-3">
+            <table class="table-l" >
+                <tr>
+                    <td class="blog-td">
+                        <p><span class="blog-post-1">Winter Tour Supporters Club</span></p>
+                        <p><span class="blog-post-2">Introduced earlier this year for the 2021 season, Supporters Clubs are a way for fans to support their favorite teams and proudly display their allegiance. New this tour, in order to better support the economies of countries that make up Dota's fanbase, Supporters Club prices will differ by region, to make it more accessible for fans all over the world to support their favorite teams..</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="line-under"><i class="fas fa-user-circle un-t"></i> <span class="under-des">BY <a a href="https://www.gamespot.com/profile/gabegurwin/ " target="_blank" class="high">MIKE BODE</a></span>  <i class="far fa-clock un-t"></i> <span class="under-des">DECEMBER 4, 2021 </span> <i class="far fa-comments un-t"></i> <span class="under-des"><a href="#" class="high">0 COMMENT</a></span>
+                            <span class="icon-blog">
+                                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-blog"></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-blog"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-blog"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-blog"></i></a>
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <img src="images/blog/news-4.jpg" height="425" width="790" alt="blog-picture" class="blog-pic">
+            <table class="table-l">
+                <tr>
+                    <td class="blog-td">
+                        <p><span class="blog-post-1">New Forza Horizon 5 patch brings game-breaking bugs</span></p>
+                        <p><span class="blog-post-2">Over the weekend, players have been reporting several issues, some bigger than others. One of the most prevalent involves players becoming trapped in an infinite loading screen following the customization of a vehicle. Thankfully, developer Playground Games has stated they are working on this specific issue.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="line-under"><i class="fas fa-user-circle un-t"></i> <span class="under-des">BY <a a href="https://www.gamespot.com/profile/gabegurwin/ " target="_blank" class="high">TOMAS ALEXA</a></span>  <i class="far fa-clock un-t"></i> <span class="under-des">MARCH 04, 2020 </span> <i class="far fa-comments un-t"></i> <span class="under-des"><a href="#" class="high">0 COMMENT</a></span>
+                            <span class="icon-blog">
+                                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-blog"></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-blog"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-blog"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-blog"></i></a>
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <div class="pages-block">
+                <a href="#"><i class="fas fasa fa-angle-double-left"></i></a>
+                <a href="#" class="current">1</a>
+                <a href="#">2</a>
+                <a href="#">..</a>
+                <a href="#">4</a>
+                <a href="#"><i class="fas fasa fa-angle-double-right"></i></a>
+            </div>
+            </div>
+            <sidebar id="r-s">
+                <div class="search-line">
+                    <input type="search" class="search-button" maxlength="30" placeholder="USE CODE WORDS" />
+                    <i class="fas fa-search search-blog"></i>
+                </div>
+                <div>
+                    <table class="table-side">
+                        <tr>
+                            <td lass="fl-l">
+                                <p class="table-side-h"><span class="categ">CATEGORIES</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="between-left">
+                                <p class="fl-l">PUBG</p><p class="fl-r"><span class="num-table">8</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="between-left">
+                                <p class="fl-l">CS:GO</p><p class="fl-r"><span class="num-table">4</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="between-left">
+                                <p class="fl-l">DOTA 2</p><p class="fl-r"><span class="num-table">2</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="between-left"> 
+                                <p class="fl-l">VALORANT</p><p class="fl-r"><span class="num-table">7</span></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table class="table-side-2">
+                        <tr>
+                            <td lass="fl-l">
+                                <p class="table-side-h"><span class="categ">RECENT ARTICLES</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bot-side">
+                                <img src="images/blog/news-1-mini.jpg">
+                                <div > 
+                                    <a href="#blog-posts"><p class="link-blog">Nier Replicant Is Just $30 For Black Friday</p></a>
+                                    <p><i class="far fa-comments un-t"></i><span class="less-l"> NOVEMBER 26, 2021</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bot-side">
+                                <img src="images/blog/news-2-mini.jpg">
+                                <div> 
+                                    <a href="#t-2"><p class="link-blog">The Witcher 4 Controversial Feature Hinted at by Developer</p></a>
+                                    <p><i class="far fa-comments un-t"></i><span class="less-l"> DECEMBER 1, 2021</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bot-side">
+                                <img src="images/blog/news-3-mini.jpg">
+                                <div> 
+                                    <a href="#t-3"><p class="link-blog">Winter Tour Supporters Club</p></a>
+                                    <p><i class="far fa-comments un-t"></i> <span class="less-l"> DECEMBER 4, 2021</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </sidebar>
+        </main>
+</section>
+    <footer>
+        <div class="footer-nav">
+            <div class="footer-nav-inner">
+                <a href="home.html" class="footer-nav-bar" class="border-right">HOME</a>
+                <a href="shop.html" class="footer-nav-bar">SHOP</a>
+                <img src="images/logo/logo.png" class="footer-nav-image" alt="footer-logo">
+                <a href="blog.html" class="footer-nav-bar" class="border-right">BLOG</a>
+                <a href="contact.html" class="footer-nav-bar">CONTACT</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="hed">ADDRESS OFFICE</h3><br><br>
+                <a href="#" class="footer-row">Koktem-3 22, Almaty, KZ 70413</a>
+                <a href="#" class="footer-row"><span class="more-light">Open:</span> 8:30 AM 9:30PM</a><br>
+                <a href="#" class="footer-row"><i class="fas fa-phone"></i> <span class="more-light">Phone: </span> +7 771 431 04 70</a>
+                <a href="#" class="footer-row"><i class="fas fa-envelope"></i> <span class="more-light">Email: </span> Vinom@gmail.com</a><br>
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-footer"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-footer"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-footer"></i></a>
+               <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-footer"></i></a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">TREND GAMES</h3><br><br>
+                <a href="#" class="footer-row footer-change">Divinity Sin</a><br>
+                <a href="#" class="footer-row footer-change">The Witcher 3</a><br>
+                <a href="#" class="footer-row footer-change">Dischonored 2</a><br>
+                <a href="#" class="footer-row footer-change">Cars 3</a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">NEED HELP?</h3><br><br>
+                <a href="#" class="footer-row footer-change">Terms</a><br>
+                <a href="#" class="footer-row footer-change">Privacy Policy</a><br>
+                <a href="#" class="footer-row footer-change">Refund Policy</a><br>
+                <a href="#" class="footer-row footer-change">FAQ</a><br>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">RECENT COMMENTS</h3><br><br>
+                <a href="#" class="footer-row"><span class="more-light">Elon Musk: </span>This site designed vety well!</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Jomart Tokayev: </span>Unbelieveble site, I'm gonna <br>buy something.</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Elvis Presley: </span>Top design, One of the <br>best site I've ever seen.</a><br>
+            </div>
+          </div>
+    </footer>
+    <section id="section-3">
+        <div class="under-footer">
+            <div><p class="copy">Copyright © 2020 <span class="copyright">Adil-Nurailym</span> All Rights Reserved.</p></div>
+            <div><img src="images/card-footer.png" alt="some-cards"></div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

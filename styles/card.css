@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html{ 
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-image: url('../images/bg/shop-blog-bg.jpg');
+    padding: 20px 0 50px 0;
+    width: 100%;
+}
+#break-line {
+    background-image: url('../images/line.jpg');
+    height: 50px;
+    width: 100%;
+}
+#section-1 { 
+    background-image: url('../images/bg/blog-bg.jpg');
+    padding: 20px 0 150px 0;
+    width: 100%;
+}
+.card { 
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.in-card-1 { 
+    width: 60%;
+}
+.in-card-1 img { 
+    height: 550px;
+    width: 550px;
+}
+.in-card-2 { 
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    width: 45%;
+}
+.value { 
+    font-size: 18px;
+    color: #fe5917;
+}
+.description { 
+    padding-top: 15px;
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 50;
+}
+.button-card { 
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.counter { 
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    color: #adabac;
+    background-color: #2c2f38;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    margin-right: 5%;
+}
+.add-to { 
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #2c2f38;
+    border: none;
+    width: 50%;
+    border-top-right-radius: 15px;
+}
+.quick-info { 
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.under-quick { 
+    font-size: 14px;
+}
+.quick-span { 
+    color: #b1b1b1;
+    padding-left: 10px;
+}
+.fa-star { 
+    color: #fe5917;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

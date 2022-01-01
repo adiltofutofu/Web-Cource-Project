@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="styles/same.css"> 
+    <title>Vinom - Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="above-nav">
+            <div class="icon-nav">
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter nav-icon"></i></a>
+                <a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-alien nav-icon"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube nav-icon"></i></a>
+                <a href="https://www.twitch.com/" target="_blank"><i class="fab fa-twitch nav-icon"></i></a>
+            </div>
+            <div class="reg-log">
+                <a href="registaration.html" class="logreg reg"><i class="fas fa-sign-out-alt"></i><span class="regsig">REGISTER</span></a> <span class="or">OR</span>
+                <a href="#" class="logreg log" onclick="showModal(event)"><i class="fas fa-sign-out-alt"></i><span class="regsig">SIGN IN </span></a>
+            </div>
+            <div class="modal">
+                <div class="signin-modal">
+                    <button class="close-btn" onclick="closeBtn()">X</button>
+                    <h2 class="modal-head">Sign In</h2>
+                    <span id="inMes"></span>
+                    <form action="">
+                        <label for="sign_email" class="form-label">Email:</label>
+                        <input type="email" class="form-input" id="sign_email" placeholder="example@example.com" required>
+                        <label for="sign_pass" class="form-label">Password:</label>
+                        <input type="password" class="form-input" id="sign-password">
+                        <button type="submit" onclick="signIn(event)" class="form-btn">Sign in</button>
+                    </form>
+                    <p>Don't have account? <a href="registration.html"> Register</a></p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="logo-nav">
+                <a href="home.html"><img src="images/logo/logo.png" alt="company-logo"></a>
+            </div>
+            <div class="link-nav">
+                <a href="home.html" class="main-nav-link"><span class="nav-m-l-nc">HOME</span></a>
+                <a href="shop.html" class="main-nav-link"><span class="nav-m-l-nc">SHOP</span></a>
+                <a href="blog.html" class="main-nav-link"><span class="nav-m-l-nc">BLOG</span></a>
+                <a href="contact.html" class="main-nav-link"><span class="nav-m-l-nc">CONTACT</span></a>
+                <a href="card.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section id="break-line"></section>
+    <section class="section-1">
+        <div class="signup">
+            <form id="signup-form" onsubmit="regis(event)">
+                <div class="sign-up">Sign Up</div>
+                <label for="upFirstname">Firstname:</label>
+                <input type="text" id="upName" placeholder="Adil" required>
+                <label for="upLastname">Lastname:</label>
+                <input type="text" id="upLastname" placeholder="Zhabaginov" required>
+                <label for="upEmail">Email:</label>
+                <input type="email" id="upEmail" placeholder="example@example.com" required>
+                <label for="upPass">Password:</label>
+                <input type="password" id="upPass" required>
+                <label for="repPass">Repeat your password:</label>
+                <input type="password" id="repPass" required>
+                <button type="submit">SIGN UP</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-nav">
+            <div class="footer-nav-inner">
+                <a href="home.html" class="footer-nav-bar" class="border-right">HOME</a>
+                <a href="shop.html" class="footer-nav-bar">SHOP</a>
+                <img src="images/logo/logo.png" class="footer-nav-image" alt="footer-logo">
+                <a href="blog.html" class="footer-nav-bar" class="border-right">BLOG</a>
+                <a href="contact.html" class="footer-nav-bar">CONTACT</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="hed">ADDRESS OFFICE</h3><br><br>
+                <a href="#" class="footer-row">Koktem-3 22, Almaty, KZ 70413</a>
+                <a href="#" class="footer-row"><span class="more-light">Open:</span> 8:30 AM 9:30PM</a><br>
+                <a href="#" class="footer-row"><i class="fas fa-phone"></i> <span class="more-light">Phone: </span> +7 771 431 04 70</a>
+                <a href="#" class="footer-row"><i class="fas fa-envelope"></i> <span class="more-light">Email: </span> Vinom@gmail.com</a><br>
+                <a href="https://twitter.com/home?lang=ru" target="_blank"><i class="fab fa-twitter fa-footer"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-footer"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-footer"></i></a>
+               <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-footer"></i></a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">TREND GAMES</h3><br><br>
+                <a href="#" class="footer-row footer-change">Divinity Sin</a><br>
+                <a href="#" class="footer-row footer-change">The Witcher 3</a><br>
+                <a href="#" class="footer-row footer-change">Dischonored 2</a><br>
+                <a href="#" class="footer-row footer-change">Cars 3</a>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">NEED HELP?</h3><br><br>
+                <a href="#" class="footer-row footer-change">Terms</a><br>
+                <a href="#" class="footer-row footer-change">Privacy Policy</a><br>
+                <a href="#" class="footer-row footer-change">Refund Policy</a><br>
+                <a href="#" class="footer-row footer-change">FAQ</a><br>
+            </div>
+            <div class="footer-col">
+                <h3 class="hed">RECENT COMMENTS</h3><br><br>
+                <a href="#" class="footer-row"><span class="more-light">Elon Musk: </span>This site designed vety well!</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Jomart Tokayev: </span>Unbelieveble site, I'm gonna <br>buy something.</a><br>
+                <a href="#" class="footer-row"><span class="more-light">Elvis Presley: </span>Top design, One of the <br>best site I've ever seen.</a><br>
+            </div>
+          </div>
+    </footer>
+    <section id="section-3">
+        <div class="under-footer">
+            <div><p class="copy">Copyright © 2020 <span class="copyright">Adil-Nurailym</span> All Rights Reserved.</p></div>
+            <div><img src="images/card-footer.png" alt="some-cards"></div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

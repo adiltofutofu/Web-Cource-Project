@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#break-line { background-image: url('images/line.jpg'); height: 50px; width: 100% }
+
+body { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;	
+}
+header { 
+    background-image: url('images/bg/header-home-bg.jpg');
+    padding: 5px 0 35px 0; 
+    width: 100%;
+}
+.section-1 { 
+    background-image: url('images/bg/section-bg.jpg'); 
+    background-size: cover;
+    padding-top: 65px;
+    height: 600px;
+    width: 100%;
+}
+.sign-up { 
+    text-align: center;
+    padding: 15px 0 5px 0;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 800;
+    color: #ffffff;
+    border-bottom: 5px solid #fe5917;
+}
+.signup {  
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    width: 20%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #252932;
+    font-family: 'Oxanium', cursive;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #b1b1b1;
+    opacity: .9;
+}
+label { 
+    padding: 10px 0 0 0;
+}
+input {
+    font-size: 15px;
+    font-family: 'Oxanium', cursive;
+    display: block;
+    color: #adabac;
+    background-color: #2c2f38;
+    border: none;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    padding: 5px;
+}
+button { 
+    width: 60%;
+    border-radius: 5px;
+    margin: 15px 0 5px 20%;
+    align-items: center;
+    background: #fe5917;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+.close-btn { 
+    cursor: pointer;
+}
+
+
